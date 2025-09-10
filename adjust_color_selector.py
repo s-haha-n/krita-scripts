@@ -4,10 +4,7 @@ from PyQt5.QtWidgets import (
 )
 from PyQt5.QtCore import QSize, Qt
 
-# ==============================================================================
-#                               CONFIGURATION
-# ==============================================================================
-
+# can set these and hit run in scripter to change
 COLOR_SELECTOR_DOCKER_OBJECT_NAME = "SpecificColorSelector"
 COLOR_SLIDER_FIXED_HEIGHT = 12
 COLOR_SELECTOR_COMBOBOX_FIXED_HEIGHT = 40
@@ -16,9 +13,6 @@ HIDE_COLOR_SELECTOR_COLOR_MODEL_DROPDOWN = True
 HIDE_COLOR_SELECTOR_RADIO_BUTTONS = True
 HIDE_COLOR_SELECTOR_COLOR_NAME_SECTION = True
 
-# ==============================================================================
-#                            END OF CONFIGURATION
-# ==============================================================================
 
 def is_descendant_of(potential_child, potential_parent):
     current_parent = potential_child.parent()
